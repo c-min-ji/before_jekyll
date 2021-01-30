@@ -1,0 +1,31 @@
+#menu-list .menu-name-blog {
+    margin: 50px;
+    background-color: rgb(136, 128, 115);
+    color: white;
+}
+
+.blog-list {
+    margin: 100px;
+}
+
+.blog-list>ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.blog-list>ul>li {
+    list-style: none;
+    margin: 20px 0px 20px 0px;
+}
+
+.blog-list>ul>li>a {
+    text-decoration: none;
+    color: rgb(136, 128, 115);
+    font-size: 20px;
+}
+
+.blog-list>ul>li>a:hover {
+    background-color: rgb(136, 128, 115);
+    color: white;
+}

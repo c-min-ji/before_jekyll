@@ -1,0 +1,23 @@
+<main>
+    <div class="random-lucky-title">❤Today's Lucky Word❤</div>
+    <div class="random-lucky" onselectstart="return false">
+        <form name="random_lucky" id="random-lucky">
+            <input type="text" id="rl" name="rl" readonly>
+        </form>
+        <script>
+            A=new Array();
+            A[0]="Cherish"
+            A[1]="Love"
+            A[2]="Travel"
+            A[3]="Bijou"
+            A[4]="Charming"
+            A[5]="Flora"
+            A[6]="Heimish"
+            A[7]="Eunoia"
+            rand = Math.floor( A.length * Math.random());
+            randText = A[rand];
+            random_lucky.rl.value = randText;
+        </script>
+    </div>
+    
+</main>

@@ -1,0 +1,184 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+header {
+    margin-top: 50px;
+}
+
+#menu-list {
+    
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+}
+
+#menu-list {
+    list-style: none;
+    color: black;
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#menu-list a {
+    text-decoration: none;
+    color: gray;
+}
+
+.home-name {
+    text-align: center;
+}
+
+.home-name a {
+    text-decoration: none;
+    color: rgb(136, 128, 115);
+    font-weight: 1000;
+    font-size: 30px;   
+}
+  
+.home-name a:hover {
+    background-color: rgb(136, 128, 115);
+    color: white;
+}
+
+#menu-list .menu-name {
+    margin: 50px;
+}
+
+#menu-list .menu-name:hover {
+    background-color: rgb(136, 128, 115);
+    color: white;
+}
+
+#menu-list .about {
+    margin: 50px;
+}
+
+#menu-list .about:hover {
+    background-color: rgb(136, 128, 115);
+    color: white;
+}
+
+.yeonji-gomji {
+    text-align: center;
+    margin-top: 120px;
+}
+
+/*검색창
+fieldset {
+    border: none;
+}
+
+.search {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap;
+}
+
+.search-box {
+    margin-left: 470px;
+    margin-top: 0px;
+    width: 300px;
+    height: 30px;
+    border: 2px solid rgb(136, 128, 115);
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.search-box input {
+    flex: 8;
+    height: 28px;
+    padding-left: 20px;
+    padding-right: 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border-radius: 42px 0px 0px 42px;
+}
+
+.search-box button {
+    flex: 2;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0%;
+    background: rgb(136, 128, 115);
+    color: white;
+    border-radius: 0px 45px 45px 0px;
+}
+
+.search-box:hover {
+    box-shadow: 1px 1px 10px #ddd;
+}
+*/
+
+.random-lucky-title {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(136, 128, 115);
+    margin-top: 30px;
+}
+
+.random-lucky {
+    margin: 20px;
+    text-align: center;
+}
+
+.random-lucky input {
+    font-size: 20px;
+    border: 0;
+    text-decoration: underline;
+    width: 100px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(136, 128, 115);
+}
+
+/*푸터하단고정시키기ㅜㅜ */
+
+footer {
+    /*background-color: rgb(136, 128, 115);
+    */
+    font-size: 12px;
+    font-weight: 540;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    color: rgb(136, 128, 115);
+}
+
+.footer-area {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 13px;
+}
+/*
+.developer {
+    padding-top: 100px;
+    width: 50%;
+    margin: auto;
+    
+}
+
+th .dv-name {
+    font-weight: 200;
+    text-align: center;
+}
+
+th .dv-contact {
+    font-weight: 200;
+    text-align: center;
+    color: rgb(136, 128, 115);
+}
+*/
