@@ -5,7 +5,7 @@
 }
 
 .blog-list {
-    margin: 100px;
+    margin: 100px 100px 50px 100px;
 }
 
 .blog-list>ul {
@@ -28,4 +28,25 @@
 .blog-list>ul>li>a:hover {
     background-color: rgb(136, 128, 115);
     color: white;
+}
+
+.content-background {
+    text-align: center;
+    margin: 10px 170px 30px 170px; /*위오아왼*/
+    padding: 50px 100px 50px 100px;
+    height: 100%;
+    background-color: rgba(216, 205, 187, 0.719);
+}
+
+.post-title {
+    text-decoration: underline;
+    color: rgb(136, 128, 115);
+    width: 100%;
+    margin: 0;
+    margin-top: 100px;
+    margin-bottom: -15px;
+    background-color: none;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
 }
